@@ -1,4 +1,5 @@
-  <!-- Start Header Area -->
+<div>
+      <!-- Start Header Area -->
   <header class="trucker__header-area-home-1 trucker__header-area-home-2">
     <div class="trucker__header-topbar">
       <div class="trucker__container">
@@ -67,7 +68,8 @@
       </div>
     </div>
     <div class="trucker__header-menu trucker__header-menu-2">
-      <div class="trucker__container">
+        {{-- <br> --}}
+        <div class="trucker__container">
         <div class="trucker__menu-wrapper">
           <div class="trucker__logo">
             <a href="index.html">
@@ -77,27 +79,15 @@
           <div class="trucker__menu__inner">
             <nav>
               <ul class="trucker__menu">
-                <li><a href="#"
-                    class="trucker__fs-16 trucker__fw-500 trucker__deep-sea-blue trucker__submenu-open-here">Home</a>
-                  <ul class="trucker__sub-menu">
-                    <li><a href="index.html" class="trucker__fs-16 trucker__fw-500 trucker__deep-sea-blue">Home One</a>
-                    </li>
-                    <li><a href="index-two.html" class="trucker__fs-16 trucker__fw-500 trucker__deep-sea-blue">Home
-                        Two</a></li>
-                  </ul>
+                <li><a href="{{ route('welcome') }}"
+                    class="trucker__fs-16 trucker__fw-500 trucker__deep-sea-blue ">Home</a>
                 </li>
-                <li><a href="about.html" class="trucker__fs-16 trucker__fw-500 trucker__deep-sea-blue">About</a></li>
-                <li><a href="#"
-                    class="trucker__fs-16 trucker__fw-500 trucker__deep-sea-blue trucker__submenu-open-here">Pages</a>
-                  <ul class="trucker__sub-menu">
-                    <li><a href="team.html" class="trucker__fs-16 trucker__fw-500 trucker__deep-sea-blue">Team</a></li>
-                    <li><a href="team-details.html" class="trucker__fs-16 trucker__fw-500 trucker__deep-sea-blue">Team
-                        Details</a></li>
-                    <li><a href="pricing.html" class="trucker__fs-16 trucker__fw-500 trucker__deep-sea-blue">Pricing</a>
-                    </li>
-                    <li><a href="faq.html" class="trucker__fs-16 trucker__fw-500 trucker__deep-sea-blue">Faq</a></li>
-                    <li><a href="404.html" class="trucker__fs-16 trucker__fw-500 trucker__deep-sea-blue">404</a></li>
-                  </ul>
+                <li><a href="about.html" class="trucker__fs-16 trucker__fw-500 trucker__deep-sea-blue trucker__submenu-open-here">About</a>
+                    <ul class="trucker__sub-menu">
+                        <li><a href="#" class="trucker__fs-16 trucker__fw-500 trucker__deep-sea-blue">Who We Are</a></li>
+                        <li><a href="#" class="trucker__fs-16 trucker__fw-500 trucker__deep-sea-blue">Careers</a></li>
+                        <li><a href="#" class="trucker__fs-16 trucker__fw-500 trucker__deep-sea-blue">FAQS </a></li>
+                    </ul>
                 </li>
                 <li><a href="#"
                     class="trucker__fs-16 trucker__fw-500 trucker__deep-sea-blue trucker__submenu-open-here">Services</a>
@@ -109,14 +99,7 @@
                   </ul>
                 </li>
                 <li><a href="#"
-                    class="trucker__fs-16 trucker__fw-500 trucker__deep-sea-blue trucker__submenu-open-here">Blogs</a>
-                  <ul class="trucker__sub-menu">
-                    <li><a href="blog-standard.html" class="trucker__fs-16 trucker__fw-500 trucker__deep-sea-blue">Blog
-                        Standard</a></li>
-                    <li><a href="blog-details.html" class="trucker__fs-16 trucker__fw-500 trucker__deep-sea-blue">Blog
-                        Details</a></li>
-                  </ul>
-                </li>
+                    class="trucker__fs-16 trucker__fw-500 trucker__deep-sea-blue">Blogs</a></li>
                 <li><a href="contact.html" class="trucker__fs-16 trucker__fw-500 trucker__deep-sea-blue">Contact</a>
                 </li>
               </ul>
@@ -143,3 +126,4 @@
     </div>
   </header>
   <!-- End Header Area -->
+</div>

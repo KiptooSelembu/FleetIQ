@@ -25,7 +25,7 @@
 
 <body>
   <!-- Start Site Preloader -->
-  <div id="trucker__preloader">
+  {{-- <div id="trucker__preloader">
     <div id="trucker__circle_loader"></div>
     <div class="trucker__loader_logo"><img src="assets/images/logo/logo.svg" alt="Preload"></div>
   </div>
@@ -36,7 +36,7 @@
       <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
     </svg>
   </div>
-  <!-- End Scroll To Top Here -->
+  <!-- End Scroll To Top Here --> --}}
 
     <livewire:pages.inc.header/>
     {{ $slot }}
