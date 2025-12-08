@@ -21,4 +21,5 @@ use App\Livewire\Welcome;
 
 
 Route::get('/', Welcome::class)->name('welcome');
-
+Route::get('/about', App\Livewire\Pages\About::class)->name('about');
+Route::get('/careers', App\Livewire\Pages\Careers::class)->name('careers');

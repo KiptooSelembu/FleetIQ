@@ -82,10 +82,10 @@
                 <li><a href="{{ route('welcome') }}"
                     class="trucker__fs-16 trucker__fw-500 trucker__deep-sea-blue ">Home</a>
                 </li>
-                <li><a href="about.html" class="trucker__fs-16 trucker__fw-500 trucker__deep-sea-blue trucker__submenu-open-here">About</a>
+                <li><a href="{{ route('about') }}" class="trucker__fs-16 trucker__fw-500 trucker__deep-sea-blue trucker__submenu-open-here">About</a>
                     <ul class="trucker__sub-menu">
-                        <li><a href="#" class="trucker__fs-16 trucker__fw-500 trucker__deep-sea-blue">Who We Are</a></li>
-                        <li><a href="#" class="trucker__fs-16 trucker__fw-500 trucker__deep-sea-blue">Careers</a></li>
+                        <li><a href="{{ route('about') }}" class="trucker__fs-16 trucker__fw-500 trucker__deep-sea-blue">Who We Are</a></li>
+                        <li><a href="{{ route('careers') }}" class="trucker__fs-16 trucker__fw-500 trucker__deep-sea-blue">Careers</a></li>
                         <li><a href="#" class="trucker__fs-16 trucker__fw-500 trucker__deep-sea-blue">FAQS </a></li>
                     </ul>
                 </li>
@@ -118,7 +118,7 @@
               </a>
             </div>
             <div class="trucker__header-btn">
-              <a href="#" class="trucker__btn-style-1">Track Order <i class="fa-light fa-arrow-up-right"></i></a>
+              <a href="#" class="trucker__btn-style-1">Get Started <i class="fa-light fa-arrow-up-right"></i></a>
             </div>
           </div>
         </div>
